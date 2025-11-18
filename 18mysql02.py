@@ -2,7 +2,7 @@ import pymysql
 
 #DB 연결
 conn = pymysql.connect(host='localhost', user='sample_user',
-                       password='1234', db='sample_db', charset='utf8')
+                    password='1234', db='sample_db', charset='utf8')
 #커서생성
 curs = conn.cursor()
 

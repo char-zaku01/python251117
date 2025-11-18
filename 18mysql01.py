@@ -8,7 +8,7 @@ import pymysql
 
 # MySQL 연결
 conn = pymysql.connect(host='localhost', user='sample_user',
-                       password='1234', db='sample_db', charset='utf8')
+                    password='1234', db='sample_db', charset='utf8')
 '''
     , cursorclass=pymysql.cursors.DictCursor
     => 위 설정이 없는 경우 레코드를 튜플로 출력한다. 
